@@ -1,0 +1,37 @@
+body {
+  font-family: oskar, sans-serif;
+}
+
+.card {
+  padding: 1.5em;
+  text-align: center;
+}
+.card__title {
+  font-weight: 100;
+  color: black;
+}
+.card__link {
+  margin: 0;
+  text-decoration: underline;
+}
+.card--featured {
+  transform: scale(1);
+}
+
+.celebration-anim {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    transform: scale(0.8);
+  }
+  .card--featured {
+    transform: scale(1.2);
+  }
+}
+a {
+  text-decoration: none;
+}

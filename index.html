@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Web Awards -->
+    <title>Best of Fall 2023</title>
+    <meta property="og:title" content="Student Web Awards" />
+    <meta property="og:image" content="https://www.minimalpizza.com/images/og-image.jpg" />
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="styles/custom/css/default.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lrc2ysy.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+    <main>
+        <section class="p-2 p-md-4">
+            <h1 class="text-center mb-5">Fall 2023 Website Awards</h1>
+            <div class="container mx-auto">
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="order-2 order-md-1 position-relative">
+                        <a href="second/kailee-evans.html" target="_blank" class="link-wrapper">
+                            <lottie-player id="secondPlace" src="https://lottie.host/c4198bb3-eec2-47a0-9f04-a98046cc1808/JN9TqKVwTh.json" speed="1" direction="1" loop mode="normal" class="celebration-anim"></lottie-player>
+                            <article class="card card--shadow" onmouseenter="secondPlace.play()" onmouseleave="secondPlace.stop()">
+                                <img class="mb-4" src="images/silver-trophy.svg" width="100" alt="Silver trophy">
+                                <h4 class="card__title">Kailee Evans</h4>
+                                <p class="card__link">View Kasama page</p>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="order-1 order-md-2 position-relative">
+                        <a href="first/katie-davison.html" target="_blank" class="link-wrapper">
+                            <lottie-player id="firstPlace" src="https://lottie.host/c4198bb3-eec2-47a0-9f04-a98046cc1808/JN9TqKVwTh.json" speed="1" direction="1" loop mode="normal" class="celebration-anim celebration-anim--featured"></lottie-player>
+                            <article class="card card--shadow card--featured" onmouseenter="firstPlace.play()" onmouseleave="firstPlace.stop()">
+                                <img class="mb-4" src="images/gold-trophy.svg" width="100" alt="Gold trophy">
+                                <h4 class="card__title">Katie Davison</h4>
+                                <p class="card__link">View Kasama page</p>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="order-3 order-md-3 position-relative">
+                        <a href="third/hannah-bowers.html" target="_blank" class="link-wrapper">
+                            <lottie-player id="thirdPlace" src="https://lottie.host/c4198bb3-eec2-47a0-9f04-a98046cc1808/JN9TqKVwTh.json" speed="1" direction="1" loop mode="normal" class="celebration-anim"></lottie-player>
+                            <article class="card card--shadow" onmouseenter="thirdPlace.play()" onmouseleave="thirdPlace.stop()">
+                                <img class="mb-4" src="images/bronze-trophy.svg" width="100" alt="Bronze trophy">
+                                <h4 class="card__title">Hannah Bowers</h4>
+                                <p class="card__link">View Kasama page</p>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        let firstPlace = document.getElementById("firstPlace");
+        let secondPlace = document.getElementById("secondPlace");
+        let thirdPlace = document.getElementById("thirdPlace");
+
+        const addLottieToElement = (el) => {
+            el.addEventListener("ready", () => {
+                LottieInteractivity.create({
+                    player: `#${el}`,
+                    mode:"cursor", 
+                    actions: [ { type: "hover", forceFlag: false } ]
+                });
+            });
+        }
+
+        addLottieToElement(firstPlace);
+        addLottieToElement(secondPlace);
+        addLottieToElement(thirdPlace);
+
+
+    </script>
+</body>
 </html>

@@ -1,0 +1,39 @@
+.card {
+   padding: 1.5em;
+   text-align: center;
+
+   &__title {
+      font-weight: 100;
+      color: black;
+   }
+   &__link {
+      margin: 0;
+      text-decoration: underline;
+   }
+
+   &--featured {
+      transform: scale(1);
+   }
+}
+.celebration-anim {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translateY(-40%) scale(1.5);
+   z-index: -1;
+
+   &--featured {
+      transform: translateY(-50%) scale(2);
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .card {
+      transform: scale(.8);
+
+      &--featured {
+         transform: scale(1.2);
+      }
+   }
+}
+
