@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="stylesheet/stylesheet.css">
     <link rel="stylesheet" href="https://use.typekit.net/eqp1zmb.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="javascript/index.js"></script>
 </head>
 <body>
     <div class="headerdesktop">
-
         <ul>
             <li class="logo"></li><img src="images/Kasamathings-03.png" width="180px" alt="logo"></li>
             <li><a>Menu</a></li>
@@ -64,31 +64,31 @@
     <!--food section-->
         <section class="cream-section">
             <div>
-                <h1 class="pageheading red">Top Picks</h1>
+                <h1 id="top-picks" class="pageheading red">Top Picks</h1>
             </div>
             <div class="food-container">
-                <div class="food-item">
+                <div id="chosilog" class="food-item">
                     <div class="food-image-container">
                         <h1 class="foodnames">Chosilog</h1>
                         <img class="foodimages" src="images/Food 1.png" alt="food 1">
                     </div>
                     <h1 class="foodbottom">Explore Our Breakfast Options</h1>
                 </div>
-                <div class="food-item">
+                <div id="kaldereta" class="food-item">
                     <div class="food-image-container">
                         <h1 class="foodnames">Kaldereta</h1>
                         <img class="foodimages" src="images/Food 2.png"  alt="food 2">
                     </div>
                     <h1 class="foodbottom">Explore Our Lunch Options</h1>
                 </div>
-                <div class="food-item">
+                <div id="chicharo" class="food-item">
                     <div class="food-image-container">
                         <h1 class="foodnames">Chicharo</h1>
                         <img class="foodimages" src="images/Food 3.png"  alt="food 3">
                     </div>
                     <h1 class="foodbottom">Explore Our Dinner Options</h1>
                 </div>
-                <div class="food-item">
+                <div id="custom" class="food-item">
                     <div class="food-image-container">
                         <h1 class="foodnames">Customizeable Platter</h1>
                         <img class="foodimages" src="images/Food 4.png" alt="food 4">
@@ -106,7 +106,7 @@
 
             <div class="blog-container">
                 <!-- Left side with text -->
-                <div class="blog-content">
+                <div id="blog-content-l" class="blog-content">
                     <h2 class="blogheadings">Kasama’s Kitchen</h2>
                     <h3 class="blogsubheadings">Tips, Techniques, and Recipes</h3>
                     <p class="blogbody">
@@ -115,18 +115,18 @@
                     <a class="blogbutton">Read Now</a>
                 </div>
                 <!-- Right side with an image -->
-                <div class="blog-image">
+                <div id="blog-img-r" class="blog-image">
                     <img src="images/blog 1.jpg" width="650px" alt="Blog Image">
                 </div>
             </div>
 
             <div class="blog-container">
                 <!-- Left side with image -->
-                <div class="blog-image">
+                <div id="blog-img-l" class="blog-image">
                     <img src="images/blog 2.jpg" alt="Blog Image">
                 </div>
                 <!-- Right side with an text -->
-                <div class="blog-content">
+                <div class="blog-content" id="blog-content-r">
                     <h2 class="blogheadings">Farm To Table</h2>
                     <h3 class="blogsubheadings">Sourcing the Best Ingredients</h3>
                     <p class="blogbody">
@@ -146,7 +146,7 @@
             <!--Rectangle sections-->
 
             <div class="testimonials-container">
-                <div class="testimonial">
+                <div id="review-1" class="testimonial">
                     <div class="testimonial-content">
                         <img class="testimonialstars" src="images/stars.png" width="250px" alt="Stars">
                         <p class="testimonialbody">"From the moment I stepped into Kasama, I was captivated by the warm atmosphere and the impeccable service."</p>
@@ -156,7 +156,7 @@
                     </div>
                 </div>
                 
-                <div class="testimonial">
+                <div id="review-2" class="testimonial">
                     <div class="testimonial-content">
                         <img class="testimonialstars" src="images/stars.png" width="250px" alt="Stars">
                         <p class="testimonialbody">“Great food, great vibes, and the staff is top-notch. A must-visit destination in Chicago!”</p>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
         
-                <div class="testimonial">
+                <div id="review-3" class="testimonial">
                     <div class="testimonial-content">
                         <img class="testimonialstars" src="images/stars.png" width="250px" alt="Stars">
                         <p class="testimonialbody">“The flavors are out of this world, and it’s just a cool place to chill and eat. Highly recommend checking it out!”</p>
@@ -181,9 +181,11 @@
 
     <!--room section-->
         <section class="blue-section">
-            <p class="roomsubhead">Reserve A Private Room</p>
-            <p class="pageheading creambottom">Check Out Our Meeting<br>Room Options</p>
-            <a class="locationbutton">Book Now</a>
+            <div id="blue-section-text">
+                <p class="roomsubhead">Reserve A Private Room</p>
+                <p class="pageheading creambottom">Check Out Our Meeting<br>Room Options</p>
+                <a class="locationbutton">Book Now</a>
+            </div>
         </section>
     </main>
 
@@ -226,8 +228,5 @@
             </div>
         </div>
     </footer>
-
-    <script src="javascript/index.js"></script>
-
 </body>
 </html>
