@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: #b8bfac;
+    font-family: Lao MN ;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+}
+.text-center {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.center-table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    color: #4E5247;
+    padding: 0 15px;
+}
+.hero-image {
+    background-image: url("../images/maxim-berg-QgWfHo7poaQ-unsplash.jpg");
+    min-height: 369px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    max-width: 1034px;
+    flex-basis: 100%;
+    padding: 62px 62px;
+    color: white;
+}
+.hero-container {
+    max-width: 510px;
+}
+
+.col-6 {
+    flex-basis: 50%;
+    padding: 0 6px;
+}
+
+.bg-green {
+    width:100%;
+    height:auto;  
+    display: table; 
+    background:#99A08C;  
+}
+.bg-clear {
+    width:100%;
+    height:auto;  
+    display: table; 
+    background-color: transparent;
+}
+
+.box {
+    padding: 30px;
+    margin: 0%;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.titles {
+    font-family: Prisma;
+    font-size: xx-large;
+    color:  #4E5247;
+}
+
+p {
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;   
+  color:  #4E5247;
+}
+
+p-right{
+    text-align: left;
+    display: table-cell;
+    color: #4E5247;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+}
+
+
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+
+flex-container mb-3{
+    display: flex;
+}

@@ -1,0 +1,48 @@
+:root { 
+  --black: #000000;
+  --cabbage-pont: #414a41f5;
+  --mallard: #1d3d1d;
+  --white: #ffffff;
+ 
+  --font-size-l: 32px;
+  --font-size-m: 31px;
+  --font-size-s: 29px;
+  --font-size-xl: 40px;
+  --font-size-xs: 28px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 18px;
+ 
+  --font-family-inria_serif: "Inria Serif", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-extra-bold-white-29px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-extra-bold-mallard-24px {
+  color: var(--mallard);
+  font-family: var(--font-family-inter);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.inter-medium-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-extra-bold-cabbage-pont-79px {
+  color: var(--cabbage-pont);
+  font-family: var(--font-family-inter);
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 800;
+}
