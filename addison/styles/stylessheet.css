@@ -11,10 +11,17 @@
     src: url("../fonts/Gotham-Light.otf") format("opentype");
 }
 /* add new font  */
+
+
+html, body {
+    max-width: 100%;
+    height:100%;
+    overflow-x: hidden;
+	margin: 0;
+}
 body {
-    margin:0;
+	position: relative;
     background-color: #F9F2DE;
-    border: 15px 60px;
 /* add a border around everythign */
 }
 img{
