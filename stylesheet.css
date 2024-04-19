@@ -1,0 +1,221 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo {
+    margin-top: 75px;
+}
+.flex-container {
+    justify-content: space-between;
+    display: flex;
+}
+.topbanner {
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 150px;
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.display {
+    display: flex;
+    margin-top: 736px;
+}
+.padding {
+    padding-right: 10px;
+    padding-left: 130px;
+}
+.padding2 {
+    padding-left: 10px;
+}
+.border {
+    border: #A34833 solid 12px;
+    width: 373px;
+}
+.mirza-image {
+    font-family: "Mirza", serif;
+    font-size: 77px;
+    font-weight: 500;
+    font-style: bold;
+    color: #fff;
+}
+.mirzamenu {
+    font-family: "Mirza", serif;
+    font-size: 77px;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: 1300px;
+    color: #fff;
+}
+.margin {
+    margin-bottom: 20px;
+}
+.margin2 {
+    margin-top: 34px;
+}
+.mirza-title {
+    font-family: "Mirza", serif;
+    font-size: 64px;
+    font-weight: 500;
+    font-style: bold;
+    margin-top: 10px;
+}
+.mirza-underline {
+    font-family: "Mirza", serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+.mirza-regular {
+    font-family: "Mirza", serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+}
+.mirza-bold {
+    font-family: "Mirza", serif;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: bold;
+}
+.orangeboxtext {
+    margin-bottom: 5px;
+}
+.linkedwords {
+    font-size: 18px;
+    font-family: "Mirza", serif;
+    text-decoration: none;
+    padding-right: 45px;
+    color: #213E41;
+}
+.boxbutton {
+    position: absolute;
+    top: 2500px;
+    left: 762px;
+}
+.boxbutton2 {
+    position: absolute;
+    top: 2870px;
+    right: 1050px;
+}
+.buttons {
+    display: inline-block;
+    padding: 10px 42px;
+    background-color: #213E41;
+    color: #fff;
+    border: none;
+}
+.container3 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.linkedwords2 {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+}
+.menubuttons {
+    padding: 20px 53px;
+    background-color: #213E41;
+    color: #fff;
+    min-width: 115px;
+    display: inline-block;
+    border: none;
+    font-family: "Mirza", serif;
+    font-size: 40px;
+}
+.button {
+    display: inline-block;
+    padding: 20px 25px;
+    background-color: #213E41;
+    color: #fff;
+    border: none;
+}
+.menubox {
+    display: flex;
+    background-color: #EBDBC1;
+    max-width: 1280px;
+    margin-top: -5px;
+}
+.section {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    flex-direction: row-reverse
+}
+.textinbox {
+    font-family: "Mirza", serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: left;
+    padding: 35px;
+}
+.smalltextinbox {
+    font-size: 18px;
+    text-align: left;
+    padding: 35px;
+    transform: translateY(-50px);
+}
+.textinbutton {
+    font-family: "Mirza", serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+}
+.box {
+    background-color: #A34833;
+    color: #fff;
+    max-width: 531.06px;
+}
+.bottombutton {
+    display: inline-block;
+    position: absolute;
+    right: 125px;
+    top: 3090px;
+    padding: 15px 23px;
+    background-color: #A34833;
+    color: #fff;
+    border: none;
+}
+.footer {
+    background-color: #213E41;
+    color: white;
+    width: auto;
+    padding: 40px 10px 40px 10px;
+    margin-top: 34px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+}
+.socialmedia {
+    position: absolute;
+    left: 70px;
+    top: 3085px;
+    padding-left: 50px;
+}
+.socialmedia2 {
+    padding: 5px;
+}
