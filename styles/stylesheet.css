@@ -205,6 +205,19 @@ button:hover {
 .social-media a, .social-media button {
     padding: 0 1rem;
 }
+#copy-link {
+    position: relative;
+}
+.copy-text {
+    padding: 5px 10px;
+    border-radius: 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+    color: var(--dark);
+    background-color: var(--light);
+}
 
 @media (max-width: 744px) {
     .col-md-6 {

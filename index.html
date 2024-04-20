@@ -62,10 +62,10 @@
                     </a>
                 </div>
                 <div class="col-4 col-md-6 col-sm-12 mb-2">
-                    <a href="https://www.minimalpizza.com/cassandra/index.html" target="_blank">
-                        <article class="student-card" style="background-image: url('images/cassandra-website.jpg');">
+                    <a href="https://www.minimalpizza.com/thy/index.html" target="_blank">
+                        <article class="student-card" style="background-image: url('images/thy-website.jpg');">
                             <div class="student-name">
-                                <p>Cassandra Martin</p>
+                                <p>Ngoc Minh Thy Huynh</p>
                             </div>
                         </article>
                     </a>
@@ -190,7 +190,7 @@
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.minimalpizza.com" target="_blank">
                 <img src="images/facebook.png" width="74" height="74">
             </a>
-            <button onclick="navigator.clipboard.writeText('www.minimalpizza.com')">
+            <button id='copy-link' onclick="navigator.clipboard.writeText('www.minimalpizza.com')">
                 <img src="images/link.svg" width="74" alt="copy link image">
             </button>
         </div>
@@ -198,5 +198,19 @@
             <p>share links</p>
         </div>
     </footer>
+    <script>
+        const copyButton = document.getElementById("copy-link");
+        
+        copyButton.addEventListener("click", displayCopyEl);
+        
+        function displayCopyEl() {
+            copyButton.innerHTML += "<span id='copy-text' class='copy-text'>copied link</span>";
+            timeOutFunc = setTimeout(
+                function() {
+                    document.getElementById("copy-text").remove();
+                } , 2000
+            );
+        }
+    </script>
 </body>
 </html>
