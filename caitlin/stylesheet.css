@@ -1,0 +1,471 @@
+* {
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+}
+.nav-links {
+    padding: 0 31px;
+    color:black;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight:bold;
+}
+.sub-container {
+    max-width: 358;
+}
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between {
+    justify-content: space-between;
+}
+.mentions-padding {
+    padding: 100px 10px 10px 0px;
+}
+.text-align {
+    text-align:center;
+}
+.hero-image {
+    padding: 20px;
+    background-image: url("images/Kasama\ Hero\ Image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 503px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.hero-text {
+    padding: 60px 0px;
+    max-width: 1080px;
+    flex-basis: 100%
+}
+.hero-container {
+    max-width: 536px;
+    margin-bottom:100px;
+}
+
+.hero-size {
+    font-size:36px;
+}
+.margin-bottom {
+    margin-bottom:30px;
+}
+.margin-top {
+    margin-top:30px;
+}
+.big-margin-top {
+    margin-top:100px;
+}
+.menubanner {
+    display:flex;
+}
+.img {
+    max-width:100%;
+    height: auto;
+}
+h2, p {
+    margin: 0px;
+
+}
+.flexcontainer {
+    display:flex;
+    max-width:1032 px;
+    margin: 0 auto;
+}
+.flexcontainer2 {
+    display:flex;
+    max-width:1032 px;
+    margin: 0 auto;
+    justify-content:space-between
+}
+.align-center {
+    align-items:center;
+}
+.col-6 {
+    flex-basis: 50%;
+}
+.col-4 {
+    flex-basis: 33.3%;
+}
+.orderbtn {
+    max-width: 100;
+    padding: 10px 18px;
+    background-color: #A44A3F;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius:35px;
+    font-size:20px;
+}
+.reservationsbtn2 {
+    padding: 10px 18px;
+    background-color: #08383A;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius:35px;
+    font-size:20px;
+}
+.reservationsbtn {
+    padding: 10px 18px;
+    background-color: #08383A;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius:35px;
+    font-size:20px;
+}
+.menu-size {
+    font-size:24px;
+}
+.menu {
+    padding: 20px;
+    background-image: url("images/Menu\ Wood.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 638px;
+    
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.abtdinnerbtn{
+    padding: 10px 10px;
+    background-color: #A7713F;
+    color:white;
+    text-align:center;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.no-decor {
+    text-decoration:none;
+}
+
+.subscribebtn {
+    width: 130px;
+    padding: 5px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius:20px;
+    font-size:15px;
+}
+.borderexample {
+    border-width:3px;
+    border-style:solid;
+    border-color:#287EC7;
+   }
+
+.backgroundimage {
+    background-image: url(images/Menu\ Wood.jpg);
+    min-height: 600px;
+}
+.roboto-condensedheading-font {
+    font-family: "Roboto Condensed", sans-serif;
+}
+.roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.white-text {
+    color: white;
+}
+.black-text {
+    color:black;
+}
+.center-text {
+    text-align:center;
+}
+.padding {
+    padding:600 px 60px;
+}
+.bg-t {
+    background-color:#08383A;
+    min-height:600px;
+}
+.bg-tan {
+    background-color:#D2CCBE;
+    min-height:460px;
+}
+.bg-tan2 {
+    background-color:#D2CCBE;
+    min-height:477px;
+}
+.bg-footer {
+    background-color:#D2CCBE;
+    min-height:222px;
+}
+.bg-red {
+    background-color:#A44A3F;
+    min-height:597px;
+}
+.bg-blue {
+    background-color:#08383A;
+    min-height:400px;
+    min-width:660px;
+}
+.img-with-text {
+    text-align: justify;
+    width: 200px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+#container { width: 300px }
+
+
+
+#text { 
+    text-align: justify;
+    color:white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal;
+ }    
+ .reggae-one-regular {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .heading-font {
+    font-size:36px;
+  }
+  .align-center {
+    box-align:center;
+  }
+  .menu-reviews {
+    padding: 20px;
+    background-image: url("images/Reviews.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 597px;
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.border {
+    border: 8px solid white;
+    padding: 50px;
+    margin: 20px;
+    max-width: 320px;
+  }
+
+.info-text-size {
+    font-size:24px;
+}
+.margin-location {
+    margin-bottom:20px;
+}
+.align-right {
+    text-align:right
+}
+/* Removing default margin from h2. */
+h2 {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Taking a guess on what your flex container looks like */
+.flexcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Taking a guess for your .col-4 code */
+.col-4 {
+    flex-basis: 33.333%;
+    padding: 0 20px;
+}
+.heading-font {
+    font-size: 36px;
+    /* Added margin bottom to heading font  */
+    margin-bottom: 16px;
+}
+/* Gives element max width and aligns content center in container */
+.max-width {
+    max-width: 1080px;
+}
+.white-text {
+    color: white;
+}
+.center-text {
+    text-align: center;
+}
+
+.menu-reviews { 
+    padding: 20px;
+    /* Removed background properties that weren't being used */
+    min-height: 597px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.bg-red {
+    background-color: brown;
+    /* adding padding here */
+    padding: 30px;
+}
+/* Changed name of border to review */
+.review {
+    border: 8px solid white;
+    padding: 50px; 
+     
+    /* Removing max-width and allowing the parent to determine the width 
+    margin: 20px;
+    max-width: 320px;
+    */
+
+}
+.no-wrap {
+    white-space: nowrap;
+}
+/* moving star html to class */
+.star {
+    font-size: 200%; 
+    color: white;
+}
+.info-text-size { 
+    font-size: 24px;
+}
+.margin-location { 
+    margin-bottom: 20px;
+}
+.align-right {
+    text-align:right;
+}
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+  
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.align-center {
+    align-items: center;
+}
+.col-6 {
+    padding: 0 6px;
+    flex-basis: 50%;
+}
+.max-width {
+    max-width: 1032px;
+}
+.col-40 {
+    flex-basis: 40%;
+}
+.text-center {
+    justify-content: center;
+    align-items: center;
+}
+.text-align-center {
+    text-align: center;
+}
+.full-height {
+    height: 100%;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.padded {
+    padding: 0 20px;
+}
+.material-symbols-outlined {
+    display:none;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.ham {
+    display: none;
+    background-color: transparent;
+    border: 0;
+}
+@media (max-width: 1238px) {
+    .nav-links {
+        display:none;
+    }
+    .ham {
+        display:inline-block;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-6 {
+        flex-basis: 100%;
+    }
+    .col-40 {
+        flex-basis: 100%;
+    }
+    .column {
+      flex: 100%;
+      align-content: center;
+    }
+    .flexcontainer {
+        flex-wrap: wrap;
+    }
+    .col-4 {
+        flex-basis: 100%;
+    }
+    .review {
+        margin-bottom: 20px;
+    }
+    .abtdinnerbtn {
+        flex-basis:100%;
+    }
+    .material-symbols-outlined {
+        display:inline-block;
+    }
+    .orderbtn {
+        text-align:left;
+    }
+    .bg-blue {
+        min-width: unset;
+    }
+}
